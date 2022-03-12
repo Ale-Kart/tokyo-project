@@ -1,0 +1,575 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+[type=button]:not(:disabled) {
+  z-index: 0;
+}
+
+header .head_left {
+  width: 50%;
+}
+
+header .head_left nav {
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  z-index: 2;
+  padding: 2em 5em;
+}
+
+header .head_left nav .nav-button {
+  display: none;
+  cursor: pointer;
+  -webkit-transform: rotate3d(100, 0, 0, 180deg);
+          transform: rotate3d(100, 0, 0, 180deg);
+}
+
+header .head_left nav ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .head_left nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+header .head_left .head_oppening {
+  padding: 3em 6em;
+}
+
+header .head_left .head_oppening h1 {
+  font-size: 5em;
+  font-weight: 900;
+  color: black;
+  margin-top: 1em;
+}
+
+header .head_left .head_oppening p {
+  margin-top: 2em;
+  font-weight: 600;
+  color: #535353;
+}
+
+header .head_left .head_discover {
+  bottom: 50%;
+  text-align: center;
+}
+
+header .head_left .head_discover a {
+  text-decoration: none;
+  color: #fff;
+  background-color: red;
+  padding: 4em 2.5em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+header .head_right {
+  width: 50%;
+}
+
+header .head_right .head_img {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/Hiroshima-castle.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+main .container_history {
+  margin-top: 5em;
+}
+
+main .container_history h1 {
+  font-size: 4em;
+  font-weight: 700;
+  color: black;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+main .container_history .history_description {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto 5em auto;
+}
+
+main .container_history .history_description p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+main .container_history .history_img .img {
+  background-image: url(./img/temple-historic.jpg);
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+main .container_booking h1 {
+  font-size: 4em;
+  font-weight: 700;
+  color: black;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+main .container_booking form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 5em;
+  gap: 15em;
+}
+
+main .container_booking form .form_col1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .container_booking form .form_col2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container_booking form .form_col2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 5em;
+}
+
+main .container_booking form .form_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+main .container_booking form .form_button button {
+  background-color: red;
+  border: none;
+  padding: 4em 2em;
+  border-radius: 50%;
+  color: #fff;
+}
+
+main .container_booking form label {
+  opacity: 80%;
+}
+
+main .container_booking form input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: transparent;
+}
+
+main .container_gallery {
+  margin-bottom: 5em;
+}
+
+main .container_gallery h1 {
+  font-size: 4em;
+  font-weight: 700;
+  color: black;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+main .container_gallery .carousel {
+  width: 70%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+main .container_gallery .carousel .carousel-item {
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.container_footer {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+.container_footer .footer_items {
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container_footer .footer_items .footer_line-top {
+  margin-bottom: 4em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container_footer .footer_items .footer_line-top .footer_item1 ul li {
+  margin-top: 10px;
+}
+
+.container_footer .footer_items .footer_line-top .footer_item1 ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container_footer .footer_items .footer_line-top .footer_item4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em;
+}
+
+.container_footer .footer_items .footer_line-top .footer_item4 form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 25em;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid gray;
+  padding-top: .8em;
+  padding-bottom: .8em;
+}
+
+.container_footer .footer_items .footer_line-top .footer_item4 form div input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.container_footer .footer_items .footer_line-top .footer_item4 form div button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.container_footer .footer_items .footer_line-top .footer_item4 p {
+  opacity: 70%;
+  color: gray;
+}
+
+.container_footer .footer_items .footer_line-top .footer_item4 .footer_social-media ul {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2em;
+}
+
+.container_footer .footer_items .footer_line-top .footer_item4 .footer_social-media ul li a {
+  color: #fff;
+}
+
+.container_footer .footer_items .footer_line-top .footer_item4 .footer_social-media ul li a i {
+  font-size: 20px;
+}
+
+.container_footer .footer_items .footer_line-bot {
+  padding: 4em;
+}
+
+.container_footer .footer_items .footer_line-bot a {
+  padding: 3em 2em;
+  background-color: red;
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  header .head_left {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+  header .head_left nav {
+    position: fixed;
+    z-index: 2;
+    padding: 0;
+  }
+  header .head_left nav .nav-button {
+    padding: 0;
+    display: block;
+  }
+  header .head_left nav .nav-button i {
+    color: #fff;
+    font-size: 2em;
+  }
+  header .head_left nav ul {
+    display: none;
+  }
+  header .head_left nav.active {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: black;
+    padding: 1em;
+    height: 100vh;
+  }
+  header .head_left nav.active ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    height: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  header .head_left nav.active ul li a {
+    color: #fff;
+    font-size: 3em;
+  }
+  header .head_left .head_oppening {
+    margin-top: 7em;
+    text-align: center;
+    padding: 0;
+  }
+  header .head_left .head_oppening h1 {
+    color: #fff;
+    font-size: 3em;
+  }
+  header .head_left .head_oppening p {
+    color: #e0e0e0;
+    font-size: 1em;
+  }
+  header .head_left .head_discover {
+    bottom: -50%;
+  }
+  header .head_right {
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  header .head_right .head_img {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    width: 100%;
+    height: 100%;
+  }
+  main .container_history {
+    margin-top: 5em;
+  }
+  main .container_history h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 1.2em;
+    position: relative;
+  }
+  main .container_history h1::after {
+    content: '';
+    margin: 0 auto;
+    background-color: red;
+    width: 110px;
+    height: 10px;
+    bottom: -10px;
+    left: 50vw;
+    position: absolute;
+  }
+  main .container_history h1::before {
+    content: '';
+    margin: 0 auto;
+    background-color: red;
+    width: 110px;
+    height: 10px;
+    bottom: -10px;
+    right: 50vw;
+    position: absolute;
+  }
+  main .container_history .history_description {
+    text-align: center;
+    margin-bottom: 2em;
+    padding: 1em;
+    width: 100%;
+  }
+  main .container_history .history_description p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  main .container_history .history_img {
+    width: 100%;
+    height: 305px;
+  }
+  main .container_history .history_img img {
+    width: 100%;
+  }
+  main .container_booking h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 1.2em;
+    position: relative;
+  }
+  main .container_booking h1::after {
+    content: '';
+    margin: 0 auto;
+    background-color: red;
+    width: 110px;
+    height: 10px;
+    bottom: -10px;
+    left: 50vw;
+    position: absolute;
+  }
+  main .container_booking h1::before {
+    content: '';
+    margin: 0 auto;
+    background-color: red;
+    width: 110px;
+    height: 10px;
+    bottom: -10px;
+    right: 50vw;
+    position: absolute;
+  }
+  main .container_booking form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 3em;
+  }
+  main .container_booking form .form_col2 {
+    gap: 3.5em;
+  }
+  main .container_booking form .form_col2 div {
+    margin-bottom: 0;
+  }
+  main .container_gallery h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 1.2em;
+    position: relative;
+  }
+  main .container_gallery h1::after {
+    content: '';
+    margin: 0 auto;
+    background-color: red;
+    width: 110px;
+    height: 10px;
+    bottom: -10px;
+    left: 50vw;
+    position: absolute;
+  }
+  main .container_gallery h1::before {
+    content: '';
+    margin: 0 auto;
+    background-color: red;
+    width: 110px;
+    height: 10px;
+    bottom: -10px;
+    right: 50vw;
+    position: absolute;
+  }
+  .container_footer .footer_items {
+    padding: 2em 1em;
+  }
+  .container_footer .footer_items .footer_line-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .container_footer .footer_items .footer_line-top .footer_item1 {
+    display: none;
+  }
+  .container_footer .footer_items .footer_line-top .footer_item3 ul {
+    padding-left: 0;
+  }
+  .container_footer .footer_items .footer_line-top .footer_item4 form div {
+    width: initial;
+  }
+}
+/*# sourceMappingURL=index.css.map */
